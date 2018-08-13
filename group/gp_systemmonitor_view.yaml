@@ -1,0 +1,6 @@
+   system_monitor_view:
+     name: System Monitor
+     view: yes
+     entities:
+      - group.system_monitor
+      - sensor.ssl_cert_expiry  

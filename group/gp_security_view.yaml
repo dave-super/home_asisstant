@@ -1,0 +1,7 @@
+ security_view:
+  name: Security
+  view: yes
+  entities:
+   - group.door_sensors
+   - group.motion_sensors
+   - group.battery_sensors

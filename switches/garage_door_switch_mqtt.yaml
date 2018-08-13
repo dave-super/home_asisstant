@@ -1,0 +1,8 @@
+platform: mqtt
+name: "Garage Door"
+command_topic: "sensor/garage/door-command"
+payload_on: "OPEN"
+payload_off: "CLOSE"
+optimistic: false
+qos: 0
+retain: true

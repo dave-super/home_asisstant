@@ -1,0 +1,12 @@
+   environment:
+     name: Environment Sensors
+     entities:
+      - sensor.basement_stairs_motion_sensor_temperature
+      - sensor.garage_motion_sensor_temperature
+      - sensor.basement_multisensor_temperature
+      - sensor.basement_multisensor_relative_humidity
+      - sensor.basement_multisensor_luminance
+      - sensor.garage_temperature
+      - sensor.garage_humidity
+      - sensor.dark_sky_temperature
+      - sensor.dark_sky_apparent_temperature

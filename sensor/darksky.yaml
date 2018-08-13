@@ -1,0 +1,15 @@
+platform: darksky
+api_key: 2af29a690087a440394dccc9ea43e4a1
+monitored_conditions:
+   - summary
+   - temperature
+   - wind_speed
+   - humidity
+   - cloud_cover
+   - apparent_temperature
+   - precip_type
+   - precip_probability
+   - daily_summary
+   - temperature_max
+   - temperature_min
+

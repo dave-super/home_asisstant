@@ -1,0 +1,4 @@
+   bathroom_switches:
+     name: Bathroom Lights
+     entities:
+       - switch.switch

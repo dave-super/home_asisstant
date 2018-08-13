@@ -1,0 +1,4 @@
+platform: mqtt
+state_topic: sensor/garage/temperature
+name: "Garage Temperature"
+unit_of_measurement: "°F"

@@ -1,0 +1,5 @@
+ mediaplayers_view:
+  name: Media Players
+  view: yes
+  entities:
+   - group.media_players

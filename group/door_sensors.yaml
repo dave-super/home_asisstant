@@ -1,0 +1,7 @@
+   door_sensors:
+     name: Door Sensors
+     entities:
+      - sensor.back_sliding_door
+      - sensor.front_door
+      - sensor.garage_door
+      - sensor.garage_mandoor

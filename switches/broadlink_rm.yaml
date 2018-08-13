@@ -1,0 +1,6 @@
+platform: broadlink
+host: 192.168.0.112
+mac: '34:EA:34:8E:EB:05'
+switches:
+  tv_upstairs:
+    friendly_name: "Upstairs Television"

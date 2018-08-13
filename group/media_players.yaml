@@ -1,0 +1,9 @@
+   media_players:
+     name: Media Players
+     entities:
+      - media_player.living_room_home
+      - media_player.anas_room_speaker
+      - media_player.tylers_room_speaker
+      - media_player.upstairs_chromecast
+      - media_player.downstairs_chromecast
+      - media_player.master_bedroom_speaker

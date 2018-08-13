@@ -1,0 +1,25 @@
+# automation:
+
+- alias: "Turn Down Google Home Volume at night"  
+  trigger:
+   platform: time
+   hours: 21
+   minutes: 0
+   seconds: 0
+  action:
+   service: media_player.volume_set
+   data:
+     entity_id: media_player.living_room_home
+     volume_level: 0.4
+
+- alias: "Turn Down Google Home Volume in the morning"  
+  trigger:
+   platform: time
+   hours: 5
+   minutes: 0
+   seconds: 0
+  action:
+   service: media_player.volume_set
+   data:
+     entity_id: media_player.living_room_home
+     volume_level: 0.4

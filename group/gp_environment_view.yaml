@@ -1,0 +1,5 @@
+   environment_view:
+     name: Environment
+     view: yes
+     entities:
+      - group.environment

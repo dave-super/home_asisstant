@@ -1,0 +1,37 @@
+# automation:
+
+- alias: "Turn Chicken Coop Lights on at Sunrise"
+  trigger:
+   - platform: sun
+     event: sunrise
+     offset: "-00:30:00"
+  action:
+   service: switch.turn_on
+   entity_id: switch.chicken_coop_lights_switch
+
+- alias: "Turn Chicken Coop Lights off hour after sunrise"
+  trigger:
+  - platform: sun
+    event: sunrise
+    offset: "+01:00:00"
+  action:
+   service: switch.turn_off
+   entity_id: switch.chicken_coop_lights_switch
+
+- alias: "Turn Chicken Coop Lights on at Sunset"
+  trigger:
+   - platform: sun
+     event: sunset
+     offset: "-00:30:00"
+  action:
+   service: switch.turn_on
+   entity_id: switch.chicken_coop_lights_switch
+
+- alias: "Turn Chicken Coop Lights off 30 min after sunset"
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: "+00:30:00"
+  action:
+   service: switch.turn_off
+   entity_id: switch.chicken_coop_lights_switch

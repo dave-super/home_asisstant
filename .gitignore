@@ -4,12 +4,5 @@
 !.gitignore
 secrets.yaml
 known_devices.yaml
-cameras/
-group/
-sensor/
-switches/
-automations/chicken_coop/
-automations/ghome/
-automations/security/
 
 

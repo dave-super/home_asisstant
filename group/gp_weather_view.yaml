@@ -1,0 +1,7 @@
+ weather_view:
+  name: Weather
+  view: yes
+  entities:
+   - group.weather_darksky
+   - camera.dayton_ohio_radar
+   - camera.binghampton_weather_radar

@@ -1,0 +1,5 @@
+binary_sensor:
+  - platform: binary sensor
+    entity_id: binary_sensor.garage_motion_sensor_sensor_7_0
+    name: Garage Motion
+    hidden: false

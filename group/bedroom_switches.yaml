@@ -1,0 +1,7 @@
+   bedroom_switches:
+     name: Bedroom Lights
+     entities:
+      - switch.anas_lights_switch
+      - switch.tylers_lights_switch
+      - switch.master_bedroom_lights_master_bedroom_lights
+      - switch.hank_hkzwso03_smart_plug_switch

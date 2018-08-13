@@ -1,0 +1,4 @@
+   fans:
+     name: Whole House Fan
+     entities:
+       - switch.inovelli_unknown_type1e01_id1e01_switch

@@ -1,0 +1,6 @@
+   basement_switches:
+     name: Basement Lights
+     entities:
+      - switch.basement_lights_switch
+      - switch.utility_room_lights_switch
+      - light.basement_media_area_lights_level

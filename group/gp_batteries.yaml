@@ -1,0 +1,4 @@
+   battery_sensors:
+     name: Battery Levels
+     entities:
+      - sensor.garage_mandoor_battery_level

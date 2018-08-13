@@ -1,0 +1,10 @@
+platform: template
+sensors:  
+  garage_mandoor:
+    friendly_name: Garage Man Door
+    value_template: >-
+      {% if is_state("sensor.garage_man_door_alarm_level", "255") %}
+        Open
+      {% else %}
+        Closed
+      {% endif %}

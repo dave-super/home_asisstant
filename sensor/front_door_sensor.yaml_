@@ -1,0 +1,5 @@
+binary_sensor:
+  - platform: binary_sensor
+    entity_id: binary_sensor.front_door_sensor_sensor_8_0
+    name: Front Door Open/Close
+    hidden: false

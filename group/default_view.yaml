@@ -1,0 +1,10 @@
+ default_view:
+  name: Main
+  view: yes
+  entities:
+   - group.outside_switches
+   - group.bedroom_switches
+   - group.basement_switches
+   - group.bathroom_switches
+   - group.garage_door_opener
+   - group.fans
