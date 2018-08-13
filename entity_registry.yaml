@@ -1,0 +1,450 @@
+media_player.tylers_room_speaker:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: f7ad96d8-140b-899d-1b90-f8054189a2bc
+media_player.anas_room_speaker:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: 019d25d1-63ed-8e78-70b3-d8117b7cd9e1
+media_player.living_room_home:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: 60afd84b-dc14-9e11-1173-38f280cb8204
+media_player.upstairs_chromecast:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: fab13f97-0e41-7b02-51d1-4dc9438ffb7e
+switch.basement_lights_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076282880
+switch.garage_lights_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093060096
+switch.back_porch_lights_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126614528
+switch.chicken_coop_lights_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143391744
+binary_sensor.garage_motion_sensor_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594160349184
+sensor.garage_motion_sensor_temperature:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594160365586
+sensor.garage_motion_sensor_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414145
+sensor.garage_motion_sensor_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414161
+sensor.garage_motion_sensor_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414177
+sensor.garage_motion_sensor_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414305
+binary_sensor.front_door_sensor_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594177126400
+sensor.front_door_sensor_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594178191361
+sensor.front_door_sensor_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594178191377
+sensor.front_door_sensor_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594178191393
+sensor.front_door_sensor_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594178191521
+switch.utility_room_lights_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 9-72057594193723392
+light.basement_media_area_lights_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210516993
+binary_sensor.back_sliding_door_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 11-72057594227458048
+sensor.back_sliding_door_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 11-72057594228523009
+sensor.back_sliding_door_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 11-72057594228523025
+sensor.back_sliding_door_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 11-72057594228523041
+sensor.back_sliding_door_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 11-72057594228523169
+binary_sensor.basement_multisensor_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 12-72057594244235264
+sensor.basement_multisensor_temperature:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 12-72057594244251666
+sensor.basement_multisensor_luminance:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 12-72057594244251698
+sensor.basement_multisensor_relative_humidity:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 12-72057594244251730
+sensor.basement_multisensor_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 12-72057594245300225
+sensor.basement_multisensor_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 12-72057594245300241
+sensor.basement_multisensor_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 12-72057594245300257
+sensor.basement_multisensor_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 12-72057594245300385
+sensor.basement_multisensor_power_management:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 12-72057594245300401
+sensor.hallway_smoke_alarm_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 13-72057594262077441
+sensor.hallway_smoke_alarm_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 13-72057594262077457
+binary_sensor.garage_door_sensor_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 15-72057594294566912
+sensor.garage_door_sensor_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 15-72057594295631873
+sensor.garage_door_sensor_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 15-72057594295631889
+sensor.garage_door_sensor_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 15-72057594295631905
+sensor.garage_door_sensor_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 15-72057594295632033
+binary_sensor.basement_stairs_motion_sensor_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 16-72057594311344128
+sensor.basement_stairs_motion_sensor_temperature:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 16-72057594311360530
+sensor.basement_stairs_motion_sensor_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 16-72057594312409089
+sensor.basement_stairs_motion_sensor_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 16-72057594312409105
+sensor.basement_stairs_motion_sensor_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 16-72057594312409121
+sensor.basement_stairs_motion_sensor_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 16-72057594312409249
+switch.front_outside_lights_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 17-72057594327941120
+switch.tylers_lights_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 18-72057594344718336
+switch.anas_lights_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 19-72057594361495552
+binary_sensor.garage_man_door_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 20-72057594378452992
+sensor.garage_man_door_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 20-72057594379517953
+sensor.garage_man_door_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 20-72057594379517969
+sensor.garage_man_door_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 20-72057594379517985
+sensor.garage_man_door_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 20-72057594379518113
+switch.master_bedroom_lights_master_bedroom_lights:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 21-72057594395049984
+media_player.master_bedroom_speaker:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: d7b48331-59c5-d225-43e3-fdf3d13c1b3f
+media_player.all_speakers:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: 87c4d94e-f509-4091-a60f-62fef6ad48ae
+switch.switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 22-72057594411827200
+media_player.downstairs_chromecast:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: 9c7f01d7-04eb-2ea4-b3fb-296d81025600
+zwave.aeotec_zw090_zstick_gen5_us:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-1
+zwave.basement_lights:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-2
+zwave.garage_lights:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-3
+zwave.back_porch_lights:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-5
+zwave.chicken_coop_lights:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-6
+zwave.garage_motion_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-7
+zwave.front_door_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-8
+zwave.utility_room_lights:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-9
+zwave.basement_media_area_lights:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-10
+zwave.back_sliding_door:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-11
+zwave.basement_multisensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-12
+zwave.hallway_smoke_alarm:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-13
+zwave.garage_door_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-15
+zwave.basement_stairs_motion_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-16
+zwave.front_outside_lights:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-17
+zwave.tylers_lights:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-18
+zwave.anas_lights:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-19
+zwave.garage_man_door:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-20
+zwave.master_bedroom_lights:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-21
+zwave.middle_bathroom_lights:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-22
+zwave.inovelli_unknown_type1e01_id1e01:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-23
+switch.inovelli_unknown_type1e01_id1e01_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 23-72057594428604416
+zwave.hank_hkzwso03_smart_plug:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-24
+sensor.hank_hkzwso03_smart_plug_power:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 24-72057594445594754
+sensor.hank_hkzwso03_smart_plug_voltage:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 24-72057594445594882
+sensor.hank_hkzwso03_smart_plug_current:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 24-72057594445594946
+switch.hank_hkzwso03_smart_plug_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 24-72057594445381632
+sensor.hank_hkzwso03_smart_plug_energy:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 24-72057594445594626
+sensor.hank_hkzwso03_smart_plug_previous_reading:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 24-72057594445594642

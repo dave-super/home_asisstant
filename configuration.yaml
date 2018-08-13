@@ -1,0 +1,164 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 41.9703
+  longitude: -80.3125
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 0
+  # metric for Metric, imperial for Imperial
+  unit_system: imperial
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/New_York
+  # Customization file
+  customize: !include customize.yaml
+
+# Show links to resources in log and frontend
+# introduction:
+
+customizer:
+  custom_ui: local
+
+# Enables the frontend
+frontend:
+  extra_html_url:
+    - /local/custom_ui/state-card-custom-ui.html      
+  extra_html_url_es5:
+    - /local/custom_ui/state-card-custom-ui-es5.html
+  themes:
+    alert_yellow:
+      primary-text-color: '#FFC000'
+      paper-item-icon-color: '#FFC000'
+    alert_red:
+      primary-test-color: '#FF0000'
+      paper-item-icon-color: '#FF0000'
+
+# Enables configuration UI
+config:
+
+sensor: !include_dir_list sensor/
+group: !include_dir_merge_named group/
+automation: !include_dir_merge_list automations/
+#automation: !include automations.yaml
+camera: !include_dir_list cameras/
+switch: !include_dir_list switches/
+#input_boolean: !include_dir_list booleans/
+input_boolean: 
+  security_switch:
+  name: Security Switch
+  initial: on
+
+http:
+  # Secrets are defined in the file secrets.yaml
+  api_password: !secret http_password
+  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+  ssl_certificate: /etc/letsencrypt/live/davidasuper.net/fullchain.pem
+  ssl_key: /etc/letsencrypt/live/davidasuper.net/privkey.pem
+  base_url: www.davidasuper.net
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+ifttt:
+  key: !secret ifttt_key
+
+zwave:
+  usb_path: /dev/ttyACM0
+
+mqtt:
+  broker: 192.168.0.120
+  username: !secret mqtt_username
+  password: !secret mqtt_passwd
+
+notify:
+  - name: PUSHBULLET
+    platform: pushbullet
+    api_key: !secret pushbullet_apikey
+
+panel_iframe:
+  nodered:
+    title: 'Node-Red'
+    icon: 'mdi:shuffle-variant'
+    url: 'http://192.168.0.120:1880'
+
+influxdb:
+  host: localhost
+  include:
+    entities:
+       - switch.back_porch_lights_switch
+       - switch.front_outside_lights_switch
+       - switch.garage_lights_switch
+       - switch.chicken_coop_lights_switch
+       - switch.basement_lights_switch
+       - switch.utility_room_lights_switch
+       - light.basement_media_area_lights_level
+       - switch.switch
+       - switch.anas_lights_switch
+       - switch.tylers_lights_switch
+       - switch.master_bedroom_lights_master_bedroom_lights
+       - switch.inovelli_unknown_typele01_idle01_switch
+       - sensor.back_sliding_door
+       - sensor.front_door
+       - sensor.garage_door
+       - sensor.garage_mandoor
+       - sensor.basement_stairs_motion_sensor_temperature
+       - sensor.garage_motion_sensor_temperature
+       - sensor.basement_multisensor_temperature
+       - sensor.basement_multisensor_realtive_humidity
+       - sensor.basement_multisensor_luminance
+       - sensor.garage_humidity
+       - sensor.garage_temperature
+       - sensor.dark_sky_temperature
+       - sensor.dark_sky_apparent_temperature
+       - sensor.basement_multisensor_alarm_level
+       - sensor.basement_stairs_motion_sensor_alarm_level
+       - sensor.garage_motion_sensor_alarm_level
+       - sensor.date__time  
+
+    #device_tracker:
+    #  - platform: tplink
+    #    host: 192.168.0.1
+    #    username: admin
+    #password: 75tVzHsy
+    #track_new_devices: yes
+    #interval_seconds: 15
+    #consider_home: 180
+
+# Eiconnables support for tracking state changes over time
+history:
+
+# View all events in a logbook
+logbook:
+
+# Enables a map showing the location of tracked devices
+map:
+
+# Track the sun
+sun:
+
+# Weather prediction
+#sensor:
+#  - platform: yr
+
+# Text to speech
+tts:
+  - platform: google
+
+# Cloud
+cloud:
+
+# group: !include groups.yaml
+# automation: !include automations.yaml
+script: !include scripts.yaml
