@@ -5,3 +5,4 @@
       - sensor.front_door
       - sensor.garage_door
       - sensor.garage_mandoor
+      - sensor.south_back_sliding_door

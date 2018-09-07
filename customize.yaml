@@ -79,7 +79,13 @@
    friendly_name: Master Bedroom Lights
  switch.hank_hkzwso03_smart_plug_switch:
    friendly_name: Ana's Smart Plug
-
+ switch.hank_hkzwso03_smart_plug_switch_2:
+   friendly_name: Bedroom Lamp
+ switch.switch:
+   friendly_name: Middle Bathroom Lights
+ switch.hank_hkzwso01_smart_plug_switch:
+   friendly_name: Aquarium Light
+ 
  #battery_levels 
  sensor.garage_mandoor_battery_level:
    custom_ui_state_card: state-card-custom-ui

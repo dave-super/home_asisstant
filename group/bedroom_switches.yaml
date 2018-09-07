@@ -5,3 +5,5 @@
       - switch.tylers_lights_switch
       - switch.master_bedroom_lights_master_bedroom_lights
       - switch.hank_hkzwso03_smart_plug_switch
+      - switch.hank_hkzwso03_smart_plug_switch_2
+      - switch.hank_hkzwso01_smart_plug_switch

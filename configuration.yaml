@@ -95,6 +95,30 @@ panel_iframe:
 
 influxdb:
   host: localhost
+  exclude:
+    entities:
+       - zwave.utility_room_lights
+       - zwave.tylers_lights
+       - zwave.middle_bathroom_lights
+       - zwave.master_bedroom_lights
+       - zwave.inovelli_unknown_type1e01_id1e01
+       - zwave.hallway_smoke_alarm
+       - zwave.garage_motion_sensor
+       - zwave.garage_man_door
+       - zwave.garage_lights
+       - zwave.garage_door_sensor
+       - zwave.front_outside_lights
+       - zwave.front_door_sensor
+       - zwave.chicken_coop_lights
+       - zwave.basement_stairs_motion_sensor
+       - zwave.basement_multisensor
+       - zwave.basement_media_area_lights
+       - zwave.basement_lights
+       - zwave.back_sliding_door
+       - zwave.back_porch_lights
+       - zwave.anas_lights
+       - zwave.aeotec_zw090_zstick_gen5_us
+
   include:
     entities:
        - switch.back_porch_lights_switch

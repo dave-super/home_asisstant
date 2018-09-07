@@ -448,3 +448,118 @@ sensor.hank_hkzwso03_smart_plug_previous_reading:
   name:
   platform: zwave
   unique_id: 24-72057594445594642
+zwave.hank_hkzwso03_smart_plug_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-26
+sensor.hank_hkzwso03_smart_plug_power_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 26-72057594479149186
+sensor.hank_hkzwso03_smart_plug_voltage_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 26-72057594479149314
+sensor.hank_hkzwso03_smart_plug_current_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 26-72057594479149378
+switch.hank_hkzwso03_smart_plug_switch_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 26-72057594478936064
+sensor.hank_hkzwso03_smart_plug_energy_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 26-72057594479149058
+sensor.hank_hkzwso03_smart_plug_previous_reading_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 26-72057594479149074
+sensor.hank_hkzwso03_smart_plug_previous_reading_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 26-72057594479149202
+binary_sensor.hank_hkzwdws01_doorwindow_sensor_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 27-72057594495893504
+sensor.hank_hkzwdws01_doorwindow_sensor_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 27-72057594496958497
+zwave.hank_hkzwdws01_doorwindow_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-27
+sensor.hank_hkzwdws01_doorwindow_sensor_access_control:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 27-72057594496958609
+sensor.hank_hkzwdws01_doorwindow_sensor_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 27-72057594496958625
+sensor.hank_hkzwdws01_doorwindow_sensor_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 27-72057594496958465
+sensor.hank_hkzwdws01_doorwindow_sensor_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 27-72057594496958481
+sensor.anas_smart_plug_previous_reading:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 24-72057594445594770
+zwave.hank_hkzwso01_smart_plug:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-28
+sensor.hank_hkzwso01_smart_plug_power:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 28-72057594512703618
+sensor.hank_hkzwso01_smart_plug_voltage:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 28-72057594512703746
+sensor.hank_hkzwso01_smart_plug_current:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 28-72057594512703810
+switch.hank_hkzwso01_smart_plug_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 28-72057594512490496
+sensor.hank_hkzwso01_smart_plug_energy:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 28-72057594512703490
+sensor.hank_hkzwso01_smart_plug_previous_reading:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 28-72057594512703506
